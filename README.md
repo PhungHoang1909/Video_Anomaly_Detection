@@ -1,8 +1,4 @@
-# Video Anomaly Detection Model
-This repository implements a deep learning architecture for Video Anomaly Detection (VAD). The model integrates advanced feature extraction, temporal modeling, and memory-augmented mechanisms to identify anomalies in video sequences.
-
 ## **Model Overview**
-The architecture comprises the following components:
 
 ### **1. Sparse Feature Pyramid**
 - Extracts multi-scale features from video frames using 3D convolution layers.
@@ -24,18 +20,8 @@ The architecture comprises the following components:
 - Reconstructs video frames using transposed convolutions and hierarchical upsampling.
 - Integrates skip connections with adjusted feature dimensions to fuse multi-scale features.
 
-### **6. Anomaly Scoring Mechanism**
-- Computes reconstruction error and memory attention scores.
-- Combines these scores with temporal weighting for robust anomaly detection.
-
-## **Performance Metrics**
+## **Performance Metrics on Ped2 (Peak at 10 epoches):**
 
 - **Loss**: 2.7726
 - **ROC AUC**: 0.6178
 - **PR AUC**: 0.8819
-
-## **Key Features**
-- Modular architecture for scalability and flexibility.
-- Multi-scale spatial feature extraction.
-- Memory-guided anomaly detection mechanism.
-- Temporal coherence using causal attention.
