@@ -20,7 +20,7 @@
 - Reconstructs video frames using transposed convolutions and hierarchical upsampling.
 - Integrates skip connections with adjusted feature dimensions to fuse multi-scale features.
 
-## **Performance Metrics on Ped2 (Peak at 10 epoches):**
+## **Performance Metrics on Ped2 (at 35 epoches):**
 
 - **Loss**: 2.7726
 - **ROC AUC**: 0.6178
